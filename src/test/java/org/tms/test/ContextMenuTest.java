@@ -28,7 +28,7 @@ public class ContextMenuTest extends BaseTest {
         Assert.assertEquals(actualResulttextOnAlert, expectedResultAlertText, "The actual result does not match the expected result! ");
     }
 
-    @Test(dependsOnMethods ="checkContextMenuPageTest")
+    @Test(dependsOnMethods ="checkContextMenuPageTest", description = "close alert")
     public void checkAlertCloseTest(){
         Boolean actualResultCloseAlert = checkAlertOff();
         Boolean expectedResultCloseAlert = true;
