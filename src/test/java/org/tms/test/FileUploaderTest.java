@@ -8,15 +8,17 @@ import org.tms.service.HerokuappService;
 
 public class FileUploaderTest extends BaseTest{
 
-    private HerokuappService herokuappService = new HerokuappService();
-    private FileUploaderPage fileUploaderPage = new FileUploaderPage();
+    private HerokuappService herokuappService;
+    private FileUploaderPage fileUploaderPage;
 
     @BeforeClass
     public void openFileUploaderPageTest(){
+        herokuappService = new HerokuappService();
+        fileUploaderPage = new FileUploaderPage();
         herokuappService.openPageFileUploader();
     }
 
-    @Test
+    @Test(description = "Сheck that you have downloaded the correct file")
     public void checkUploadedNameFileTest(){
         String actualUplodedNameFile = "Test.txt";
         String expectedUplodedNameFile = addFileOnFileUploderPage();

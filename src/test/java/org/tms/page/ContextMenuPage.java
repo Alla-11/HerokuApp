@@ -1,9 +1,12 @@
 package org.tms.page;
 
+import io.qameta.allure.Step;
+import lombok.extern.log4j.Log4j2;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+
 
 public class ContextMenuPage extends BasePage {
 
@@ -25,6 +28,7 @@ public class ContextMenuPage extends BasePage {
         return this;
     }
 
+    @Step("Swich to alert")
     public String clickOnTheWhiteBox(){
         waitVisibilityOf(whiteBoxField);
         Actions actions = new Actions(driver);

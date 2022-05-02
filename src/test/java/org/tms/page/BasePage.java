@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public abstract class BasePage {
 
-    protected WebDriver driver = DriverSingleton.getDriver();
+    protected WebDriver driver = DriverSingleton.getInstance().getDriver();
     private final static int WAIT_TIMEOUT_SECONDS = 10;
 
     protected BasePage(){
@@ -19,7 +19,7 @@ public abstract class BasePage {
     }
 
     protected WebElement waitVisibilityOf (WebElement element){
-        return new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions.visibilityOf(element));
+        return new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS).until(ExpectedConditions.visibilityOf(element));
     }
 }
 

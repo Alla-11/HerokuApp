@@ -1,8 +1,10 @@
 package org.tms.page;
 
+import lombok.extern.log4j.Log4j2;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+@Log4j2
 public class DynamicControlsPage extends BasePage{
 
     @FindBy(xpath = "//form[@id='checkbox-example']")
@@ -33,6 +35,7 @@ public class DynamicControlsPage extends BasePage{
     }
 
     public DynamicControlsPage clickOnCheckbox(){
+        log.info("click on checkbox on DynamicControlsPage");
         waitVisibilityOf(checkboxInput);
         checkboxInput.click();
         return this;
@@ -51,6 +54,7 @@ public class DynamicControlsPage extends BasePage{
     }
 
     public DynamicControlsPage clickOnRemove(){
+        log.info("click on remove on DynamicControlsPage");
         removeButton.click();
         waitVisibilityOf(messageIsDone);
         return this;

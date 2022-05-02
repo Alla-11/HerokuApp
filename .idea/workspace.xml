@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e64c5baa-a6f0-4fc8-9d0f-80d440ccb69c" name="Default Changelist" comment="" />
+    <list default="true" id="e64c5baa-a6f0-4fc8-9d0f-80d440ccb69c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/driver/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/utils/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/driver/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/ContextMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/ContextMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/DynamicControlsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/DynamicControlsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/FileUploaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/FileUploaderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/test/ContextMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/ContextMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/test/DynamicControlsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/DynamicControlsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/test/FileUploaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/FileUploaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +33,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="27bC7Xv9QHGTrGX59fi7pURt9DE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,10 +61,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/saucedemo-main" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\HerokuApp" />
       <recent name="C:\Users\User\IdeaProjects\HerokuApp\src\test\resources" />
     </key>
   </component>
@@ -125,7 +160,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -138,10 +173,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649581617062">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1650489089094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649581617062" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1650489089094" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1649961917619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -150,26 +185,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649692470339" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1650206600514">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1651518080377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650206600514" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1650206600513">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651518080377" />
+    <state x="644" y="310" key="Github.ShareDialog" timestamp="1650207252314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650206600513" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1650206600513">
+    <state x="644" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1650207252314" />
+    <state x="552" y="110" key="Github.UntrackedFilesDialog" timestamp="1650207258363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650206600513" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1650206600514">
+    <state x="552" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1650207258363" />
+    <state width="1460" height="45" key="GridCell.Tab.0.bottom" timestamp="1651521946841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650206600514" />
-    <state x="360" y="73" key="new project wizard" timestamp="1649694357663">
+    <state width="1460" height="45" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651521946841" />
+    <state width="1460" height="45" key="GridCell.Tab.0.center" timestamp="1651521946840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1649694357663" />
+    <state width="1460" height="45" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651521946840" />
+    <state width="1460" height="45" key="GridCell.Tab.0.left" timestamp="1651521946840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1460" height="45" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651521946840" />
+    <state width="1460" height="45" key="GridCell.Tab.0.right" timestamp="1651521946841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1460" height="45" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651521946841" />
+    <state x="598" y="70" key="Maven.ArtifactSearchDialog" timestamp="1651423589525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1651423589525" />
+    <state x="471" y="102" key="SettingsEditor" timestamp="1651436632059">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="471" y="102" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651436632059" />
+    <state x="360" y="65" key="new project wizard" timestamp="1650299709817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="65" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1650299709817" />
     <state x="475" y="159" key="refactoring.ChangeSignatureDialog" timestamp="1650191088589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

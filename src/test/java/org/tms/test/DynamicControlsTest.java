@@ -7,25 +7,27 @@ import org.tms.page.DynamicControlsPage;
 import org.tms.service.HerokuappService;
 
 
-public class DynamicControlsTest {
+public class DynamicControlsTest extends BaseTest {
 
-    private HerokuappService herokuappService = new HerokuappService();
-    private DynamicControlsPage dynamicControlsPage = new DynamicControlsPage();
+    private HerokuappService herokuappService;
+    private DynamicControlsPage dynamicControlsPage;
 
 
     @BeforeClass
     public void openDynamicControlsPageTest() {
+        herokuappService = new HerokuappService();
+        dynamicControlsPage = new DynamicControlsPage();
         herokuappService.openPageDynamicControls();
     }
 
-    @Test
+    @Test (description = "Сheck сheckbox not displayed")
     public void checkCheckboxNotDisplayedTest(){
         Boolean actualResultOfVisibleCheckboxAfterClickOnButtonRemove = checkboxNotShow();
         Boolean expectedResultOfVisibleCheckboxAfterClickOnButtonRemove = false;
         Assert.assertEquals(actualResultOfVisibleCheckboxAfterClickOnButtonRemove,expectedResultOfVisibleCheckboxAfterClickOnButtonRemove, "The actual result of checkbox display does not match the expected result!");
     }
 
-    @Test
+    @Test (description = "Сheck input is enable")
     public void checkInputIsEnableTest(){
         Boolean actualResultOfInputEnable = dynamicControlsPage.isEnableInput();
         Boolean expectedResultOfInputEnable  = false;
