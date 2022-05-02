@@ -12,12 +12,14 @@ import org.tms.service.HerokuappService;
 
 public class ContextMenuTest extends BaseTest {
 
-    private HerokuappService herokuappService = new HerokuappService();
-    private ContextMenuPage contextMenuPage = new ContextMenuPage();
+    private HerokuappService herokuappService;
+    private ContextMenuPage contextMenuPage;
     Alert alert;
 
     @BeforeClass
     public void openContextMenuPageTest(){
+        herokuappService = new HerokuappService();
+        contextMenuPage = new ContextMenuPage();
         herokuappService.openPageContextMenu();
     }
 
