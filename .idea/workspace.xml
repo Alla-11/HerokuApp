@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e64c5baa-a6f0-4fc8-9d0f-80d440ccb69c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JenkinsFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e64c5baa-a6f0-4fc8-9d0f-80d440ccb69c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651604675750</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add allure.properties">
+      <created>1652120497195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652120497195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,10 +206,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649692470339" />
-    <state x="791" y="0" key="CommitChangelistDialog2" timestamp="1651604675077">
+    <state x="791" y="0" key="CommitChangelistDialog2" timestamp="1652120496691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="791" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651604675077" />
+    <state x="791" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652120496691" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1652120377444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="471" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651604151678" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651604683927">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652120506618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651604683927" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652120506618" />
     <state x="1152" y="232" key="chooseDestDirectoryDialog" timestamp="1652120008563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
